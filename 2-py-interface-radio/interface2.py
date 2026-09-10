@@ -10,7 +10,7 @@ class InterfaceAvancada:
     def __init__(self):
         self.janela = tk.Tk()
         self.janela.title("Interface Avançada")
-        self.janela.geometry("400x500")
+        self.janela.geometry("400x600")
         self.criar_widgets()
 
     def criar_widgets(self):
